@@ -31,6 +31,9 @@ function toggle(position) {
   if(position>0){
     document.getElementById(`n${position}`).classList.toggle('on');
   }
+  else {
+    return 0;
+  }
 }
 
 //don't change this line
